@@ -12,14 +12,11 @@ namespace CapaPresentación
         }
 
         private void volverAInicioTS_Click(object sender, EventArgs e)
-        {
-            //INSTANCIAMOS LA CLASE DEL FORMULARIO DE INICIO
+        {            
             FrmInicio volverInicio = new FrmInicio();
-
-            //CON EL METODO SHOW VOLVEMOS AL FORMULARIO DE INICIO
+          
             volverInicio.Show();
-
-            //OCULTAMOS Y CERRAMOS ESTE FORMULARIO (EL DE ALUMNOS)
+         
             this.Hide();
 
             this.Close();
